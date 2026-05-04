@@ -1,0 +1,15 @@
+{
+	"name": "vdf-spotify",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4716e656-f9ce-4df8-8378-8b416eaf9168",
+		"tenantId": "85775852-7d12-4e00-a770-3c1c2a58a637"
+	}
+}
