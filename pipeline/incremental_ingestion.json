@@ -133,7 +133,7 @@
 				}
 			},
 			{
-				"name": "IfincrementalData",
+				"name": "incrementalData",
 				"type": "IfCondition",
 				"dependsOn": [
 					{
