@@ -131,23 +131,6 @@
 							}
 						},
 						{
-							"name": "current",
-							"type": "SetVariable",
-							"dependsOn": [],
-							"policy": {
-								"secureOutput": false,
-								"secureInput": false
-							},
-							"userProperties": [],
-							"typeProperties": {
-								"variableName": "current",
-								"value": {
-									"value": "@utcNow()",
-									"type": "Expression"
-								}
-							}
-						},
-						{
 							"name": "incrementalData",
 							"type": "IfCondition",
 							"dependsOn": [
@@ -311,6 +294,23 @@
 									}
 								]
 							}
+						},
+						{
+							"name": "current",
+							"type": "SetVariable",
+							"dependsOn": [],
+							"policy": {
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"variableName": "current",
+								"value": {
+									"value": "@utcNow()",
+									"type": "Expression"
+								}
+							}
 						}
 					]
 				}
@@ -351,6 +351,11 @@
 						"from_date": ""
 					}
 				]
+			}
+		},
+		"variables": {
+			"current": {
+				"type": "String"
 			}
 		},
 		"annotations": []
