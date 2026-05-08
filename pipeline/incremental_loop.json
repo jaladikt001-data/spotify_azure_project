@@ -278,10 +278,6 @@
 											"secureInput": false
 										},
 										"userProperties": [],
-										"linkedServiceName": {
-											"referenceName": "azuresqllinkedservice",
-											"type": "LinkedServiceReference"
-										},
 										"typeProperties": {
 											"scripts": [
 												{
