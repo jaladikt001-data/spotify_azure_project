@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "vdf-spotify"
+		},
+		"AzureDataLakelinkedservice_accountKey": {
+			"value": ""
+		},
+		"azuresqllinkedservice_password": {
+			"value": ""
+		},
+		"AzureDataLakelinkedservice_properties_typeProperties_url": {
+			"value": "https://vspotifyprojectstorage.dfs.core.windows.net/"
+		},
+		"azuresqllinkedservice_properties_typeProperties_server": {
+			"value": "vspotifyserver.database.windows.net"
+		},
+		"azuresqllinkedservice_properties_typeProperties_database": {
+			"value": "vspotifydatabase"
+		},
+		"azuresqllinkedservice_properties_typeProperties_userName": {
+			"value": "vspotifyserver"
+		}
+	}
+}
