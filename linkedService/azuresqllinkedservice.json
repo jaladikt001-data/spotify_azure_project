@@ -6,12 +6,12 @@
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"server": "vspotifyserver.database.windows.net",
-			"database": "vspotifydatabase",
+			"database": "vdatabase",
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
-			"userName": "vspotifyserver",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDcwRDhBQTRCLUNGREMtNDEwNy1CMDQ1LUZFQzdGRENFNTdCQV9kMTBmODdmZC05OGMyLTQwZjEtOWU1Zi0wOTZkNjcwYTMxNGUiDQp9"
+			"userName": "ktserver",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE2Q0M0QkNDLTA0NjctNEU4Ny1BMTQ0LTI3MDNGMDFDMjVCOV83MDc2ZjdkMy1mNDJmLTQ0MzctYTgyYi0wMTY2YTEwOGY4Y2QiDQp9"
 		}
 	}
 }
