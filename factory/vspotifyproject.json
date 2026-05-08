@@ -1,0 +1,15 @@
+{
+	"name": "vspotifyproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "faa34b8a-578a-40bc-b021-812d824445ff",
+		"tenantId": "b62ff3ae-0326-47c3-a793-f7fbc860e244"
+	}
+}
