@@ -279,7 +279,7 @@
 										},
 										"userProperties": [],
 										"linkedServiceName": {
-											"referenceName": "azuresqllinkedservice",
+											"referenceName": "AzureSqlDatabase1",
 											"type": "LinkedServiceReference"
 										},
 										"typeProperties": {
