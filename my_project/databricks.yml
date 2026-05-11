@@ -1,0 +1,27 @@
+
+bundle:
+  name: my_project
+  uuid: a2e16ebe-33a1-468e-87cd-fc18e9718ea5
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://adb-7405616865667296.16.azuredatabricks.net
+      root_path: /Workspace/Users/jaladikt006@gmail.com/spotifyAzureProject/my_project
+      presets:
+        source_linked_deployment: false
+        
+  prod:
+    mode: production
+    workspace:
+      host: https://adb-7405616865667296.16.azuredatabricks.net
+      # We explicitly deploy to /Workspace/Users/jaladikt006@gmail.com to make sure we only have a single copy.
+      root_path: /Workspace/PROD/.bundle/${bundle.name}/${bundle.target}
+    variables:
+      catalog: vspotify
+      schema: prod
+    permissions:
+      - user_name: jaladikt006@gmail.com
+        level: CAN_MANAGE
